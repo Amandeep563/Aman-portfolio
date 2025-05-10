@@ -1,6 +1,6 @@
-import project1 from "../assets/projects/project-1.webp";
-import project2 from "../assets/projects/project-2.webp";
-import project3 from "../assets/projects/project-3.webp";
+import project1 from "../assets/projects/pr-2.jpg";
+import project2 from "../assets/projects/pr-3.jpg";
+import project3 from "../assets/projects/pr-1.jpg";
 import project4 from "../assets/projects/project-4.webp";
 
 export const HERO_CONTENT = `Hey, I’m Amandeep, a full stack developer with a commerce background. I recently completed my degree and now dedicate most of my time to coding. I primarily work with React.js and Tailwind CSS, and I am currently expanding my skills in Node.js, Python, SQL, and Golang. I have a strong passion for solving problems through code and continuously strive to grow as a developer.`;
@@ -44,29 +44,29 @@ export const PROJECTS = [
     image: project1,
     description:
       "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+    technologies: ["React", "tailwindcss"],
   },
   {
     title: "Task Management App",
     image: project2,
     description:
       "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+    technologies: ["React", "Gsap", "Tailwindcss"],
   },
   {
     title: "Portfolio Website",
     image: project3,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+    technologies: ["React", "Tailwindcss"],
   },
-  {
-    title: "Blogging Platform",
-    image: project4,
-    description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
-  },
+  // {
+  //   title: "Blogging Platform",
+  //   image: project4,
+  //   description:
+  //     "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
+  //   technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+  // },
 ];
 
 export const CONTACT = {
